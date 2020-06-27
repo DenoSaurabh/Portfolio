@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  height: 10%;
+
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+
+  h6 {
+    padding: 1rem 3rem;
+
+    transition: all .6s;
+
+    &:hover {
+      cursor: pointer;
+      margin: 0 10%;
+    }
+
+  }
+}
