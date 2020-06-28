@@ -20,6 +20,11 @@ const GlobalStyles = createGlobalStyle`
         height: 100%;
         width: 100%;
     }
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
     
     
 `;

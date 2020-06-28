@@ -1,17 +1,20 @@
 import React from 'react';
+import {Route, Switch} from 'react-router-dom';
 
-import './app.scss';
+import './app.css'
 
 import GlobalStyle from './styledComponents/globalStyles';
 
-import NavBar from './components/navbar/navbar.component.jsx';
+import HomePage from './pages/homepage/homepage.component.jsx'
 
 class App extends React.Component {
   render() {
     return (
       <div className="app">
         <GlobalStyle />
-        <NavBar />
+        <Switch>
+          <Route exact path="/home" component={HomePage} />
+        </Switch>
       </div>
     );
   }
