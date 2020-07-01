@@ -1,6 +1,58 @@
+@import '../../app.scss';
+
 .home-page {
     display: flex;
+    flex-direction: row;
 
-    justify-content: left;
-    align-content: flex-end;
+    justify-content: space-between;
+    align-content: stretch;
+
+
+    padding-left: 7rem;
+    padding-bottom: 7rem;
+
+    @include respond(phone) {
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    div {
+        width: fit-content;
+
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+
+    .left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding-right: 6rem;
+
+        @include respond(phone) {
+            padding-right: 3rem;
+        }
+
+        svg {
+            fill: #0077B6;
+
+            width: 4rem;
+            height: 4rem;
+
+            transition: all .4s;
+
+            &:first-child {
+                margin-bottom: 7rem;
+            }
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+    }
 }

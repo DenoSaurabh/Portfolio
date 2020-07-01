@@ -1,0 +1,41 @@
+// Font Family
+@mixin quicksand-font {
+  font-family: 'Quicksand', sans-serif;
+}
+
+@mixin bungee-font {
+  font-family: 'Bungee', cursive;
+}
+
+@mixin bungeeshade-font {
+  font-family: 'Bungee Shade', cursive;
+}
+
+
+// Typography texts
+.main-heading {
+  @include bungeeshade-font;
+
+  font-size: 10rem;
+  line-height: 14rem;
+  letter-spacing: 1rem;
+
+  color: #023E8A;
+  font-weight: 300;
+}
+
+.secondary-heading {
+  @include quicksand-font;
+
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #023E8A;
+}
+
+.tertiary-heading {
+  @include quicksand-font;
+
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #023E8A;
+}

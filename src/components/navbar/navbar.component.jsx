@@ -3,15 +3,12 @@ import {Link} from 'react-router-dom';
 
 import './navbar.styles.scss';
 
-import { TertiaryHeading } from '../../styledComponents/typography';
-
 const NavBar = () => (
   <div className="navbar">
-    <TertiaryHeading><Link to="/home">Home</ Link></TertiaryHeading>
-    <TertiaryHeading><Link to="/about">About</ Link></TertiaryHeading>
-    <TertiaryHeading><Link to="/skills">Skills</ Link></TertiaryHeading>
-    <TertiaryHeading><Link to="/projects">Projects</ Link></TertiaryHeading>
-    <TertiaryHeading><Link to="/blogs">Blogs</ Link></TertiaryHeading>
+    <h6 className="tertiary-heading"><Link to="/home">home</ Link></h6>
+    <h6 className="tertiary-heading"><Link to="/about">about</ Link></h6>
+    <h6 className="tertiary-heading"><Link to="/skills">skills</ Link></h6>
+    <h6 className="tertiary-heading"><Link to="/blogs">blogs</ Link></h6>
   </div>
 );
 

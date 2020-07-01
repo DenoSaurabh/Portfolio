@@ -5,9 +5,9 @@ import './container.styles.scss';
 import NavBar from '../navbar/navbar.component';
 
 const Container = ({ children, className }) => (
-  <div classname={`container ${className}`}>
+  <div className="container">
     <NavBar />
-    <div className="content">
+    <div className={`content ${className}`}>
         {children}
     </div>
   </div>
