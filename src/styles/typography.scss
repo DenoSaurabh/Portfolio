@@ -7,14 +7,14 @@
   font-family: 'Bungee', cursive;
 }
 
-@mixin bungeeshade-font {
-  font-family: 'Bungee Shade', cursive;
+@mixin bungeeinline-font {
+  font-family: 'Bungee Inline', cursive;
 }
 
 
 // Typography texts
 .main-heading {
-  @include bungeeshade-font;
+  @include bungeeinline-font;
 
   font-size: 10rem;
   line-height: 14rem;

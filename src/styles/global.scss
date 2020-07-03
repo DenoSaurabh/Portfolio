@@ -7,10 +7,19 @@
 }
 
 html {
-    // height: 100vh;
-    // width: 100%;
+    height: 100vh;
+    width: 100%;
 
     font-size: 62.5%;
+
+    
+    @include respond(small-phone) {
+        font-size: 20%;
+    }
+
+    @include respond(phone) {
+        font-size: 40%;
+    }
 
     @include respond(tab-land) { 
         font-size: 56.25%; //1 rem = 9px
@@ -19,17 +28,13 @@ html {
     @include respond(tab-port) { 
         font-size: 50%; //1 rem = 8px
     }
-
-    @include respond(small-phone) {
-        font-size: 20%;
-    }
-
-    @include respond(phone) {
-        font-size: 40%;
-    }
     
     @include respond(big-desktop) {
-        font-size: 60%; //1rem = 12
+        font-size: 60%; 
+    }
+
+    @include respond(very-big-desktop) {
+        font-size: 80%; 
     }
 }
 
@@ -37,10 +42,46 @@ body {
     // height: 100%;
     // width: 100%;
 
-    background-color: #F4FBFC;
+    // background-color: #F4FBFC;
+
+    // background-size: cover;
+
+    background-image: url("../assets/img/triangles.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 a {
     color: inherit;
     text-decoration: inherit;
+}
+
+// Scroll Bar
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #0077B6;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #015785;
+}
+
+// text Selection
+::-moz-selection {
+    color: #fff;
+    background: #0077B6;
+  }
+  
+::selection {
+    color: #fff;
+    background: #0077B6;
 }

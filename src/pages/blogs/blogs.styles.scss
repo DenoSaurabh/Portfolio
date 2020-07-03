@@ -19,17 +19,23 @@
 
             overflow: hidden;
 
-            @include respond(phone) {
-                height: 40%;
+            @include respond(small-phone) {
+                height: auto;
             }
         }
 
         h2 {
             margin-bottom: 20px;
+            font-weight: bold;
         }
 
         h6 {
             line-height: 2.9rem;
+        }
+
+        .upload-date {
+            margin-top: 20px;
+            font-weight: 500;
         }
 
         &:hover {
