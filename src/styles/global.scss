@@ -47,9 +47,11 @@ body {
     // background-size: cover;
 
     background-image: url("../assets/img/triangles.png");
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    // backdrop-filter: blur(1px);
 }
 
 a {
@@ -67,7 +69,7 @@ a {
 }
   
 ::-webkit-scrollbar-thumb {
-    background: #0077B6;
+    background: #179ee7;
     border-radius: 10px;
 }
   

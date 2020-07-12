@@ -48,6 +48,16 @@
             @include respond(very-small) {
                 font-size: 6.5rem;
             }
+
+            // transition: all .6s;
+
+            // &:hover {
+            //     cursor: pointer;
+
+            //     body {
+            //         backdrop-filter: blur(20px);
+            //     }
+            // }
         
         }
     }
