@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e53cf9c.chunk.css",
+    "main.js": "/static/js/main.0c1fbaf6.chunk.js",
+    "main.js.map": "/static/js/main.0c1fbaf6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f1bc8154.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f1bc8154.js.map",
+    "static/js/2.45fdd2fb.chunk.js": "/static/js/2.45fdd2fb.chunk.js",
+    "static/js/2.45fdd2fb.chunk.js.map": "/static/js/2.45fdd2fb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.70199464d35f1973966112c0de60a4cf.js": "/precache-manifest.70199464d35f1973966112c0de60a4cf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7e53cf9c.chunk.css.map": "/static/css/main.7e53cf9c.chunk.css.map",
+    "static/js/2.45fdd2fb.chunk.js.LICENSE.txt": "/static/js/2.45fdd2fb.chunk.js.LICENSE.txt",
+    "static/media/github.64f76c44.svg": "/static/media/github.64f76c44.svg",
+    "static/media/mail.7eec9e93.svg": "/static/media/mail.7eec9e93.svg",
+    "static/media/app.scss": "/static/media/triangles.aeae8adc.png",
+    "static/media/twitter.1b236b0f.svg": "/static/media/twitter.1b236b0f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1bc8154.js",
+    "static/js/2.45fdd2fb.chunk.js",
+    "static/css/main.7e53cf9c.chunk.css",
+    "static/js/main.0c1fbaf6.chunk.js"
+  ]
+}
