@@ -26,14 +26,17 @@ const SkillsPage = () => (
                 <br/>
 
                 <li className="tertiary-heading">Firebase</li>
-                <li className="tertiary-heading">Apollo</li>
+                <li className="tertiary-heading">Apollo Client (React)</li>
                 <li className="tertiary-heading">GraphQL</li>
+                <li className="tertiary-heading">Offline Databases</li>
                 <br/>
 
                 <li className="tertiary-heading">PWA</li>
                 <li className="tertiary-heading">Performance</li>
                 <li className="tertiary-heading">Styled Components</li>
                 <br/>
+
+                <li className="tertiary-heading">WebSockets</li>
 
                 <li className="tertiary-heading">NPM</li>
                 <li className="tertiary-heading">Deployment</li>
@@ -88,6 +91,7 @@ const SkillsPage = () => (
                 <li className="tertiary-heading">Deployment</li>
             </ul>
         </div>
+        <p className="tertiary-heading experince">Experience: 1.5+ years</p>
     </Container>
 )
 

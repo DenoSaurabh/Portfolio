@@ -1,26 +1,38 @@
 @import '../../styles/responsiveness';
 
 .skills {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
-    margin-top: 10rem;
+  margin-top: 10rem;
 
-    div {
-        width: 30rem;
+  position: relative;
 
-        ul {
+  div {
+    width: 30rem;
 
-            @include respond(phone) {
-                display: block;
-                margin-bottom: 120px;
-            }
+    ul {
+      @include respond(phone) {
+        display: block;
+        margin-bottom: 120px;
+      }
 
-            li {
-                list-style: none;
-                padding-bottom: 10px;
-            }
-        }
+      li {
+        list-style: none;
+        padding-bottom: 10px;
+      }
     }
+  }
+
+  .experince {
+    position: absolute;
+    bottom: 15rem;
+    right: 50%;
+
+    transform: translateX(50%);
+
+    font-weight: 500;
+    font-size: 2rem;
+  }
 }
